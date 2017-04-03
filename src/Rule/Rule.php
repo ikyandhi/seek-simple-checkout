@@ -15,12 +15,12 @@ class Rule
     /**
      * This is fixed amount discount for per item qty
      */
-    const FIXED_OF_PRICE_AMOUNT_DISCOUNT = 2;
+    const FIXED_OF_PRICE_AMOUNT_DISCOUNT = 1;
 
     /**
      * This is if BUY X GET Y
      */
-    const BUY_X_GET_Y = 1;
+    const BUY_X_GET_Y = 2;
 
     /**
      *
