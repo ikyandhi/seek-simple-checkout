@@ -242,10 +242,6 @@ class Checkout
                 $this->applyDiscountToCheckoutItem($index, $item, $instruction['action']['amount'] * $item->getQuantity());
                 break;
 
-            case Rule::PERCENT_OF_PRICE_AMOUNT_DISCOUNT:
-            case Rule::FIXED_OF_PRICE_AMOUNT_DISCOUNT_WHOLE_CHECKOUT:
-                break;
-
             default:
                 break;
         }
